@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(79, 146, 120);
+    height: 4em;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+h2{
+    float: left;
+}
+.chef{
+    float: right;
+    box-sizing: border-box;
+    
+    width: 100px;
+}
+ul.navl{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li.navl{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 0.5em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.ContactUs{
+    background-color: rgb(245, 215, 240);
+    padding: 1em;
+}
+.aboutUs{
+    background-color: rgb(82, 88, 172);
+    padding: 1.1em;
+    margin-top: 0%;
+}
+.menu{
+    background-color: rgb(245, 170, 135);
+    padding: 1em;
+}
