@@ -52,3 +52,35 @@ li a:hover{
     background-color: rgb(245, 170, 135);
     padding: 1em;
 }
+.tilewrap{
+    width:80%;
+    background-color: lightcoral;
+    margin: auto;
+    padding: 1em;
+    object-fit: cover;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.wrap{
+    background-color: lightgreen;
+    width: 30%;
+    height: 300px;
+    font-size: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2em;
+    object-fit: cover;
+    margin: .5em;
+    
+}
+@media screen and (max-width :768px){
+    .wrap{
+        width: 90%;
+    }
+}
+@media screen and (min-width:769px){
+    .wrap{
+        width: 25%;
+    }
+}
