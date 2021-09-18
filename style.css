@@ -18,11 +18,16 @@ h2{
     box-sizing: border-box;
     
     width: 100px;
+}    
+nav{
+    position: sticky;
+    top: 0;
 }
 ul.navl{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: sticky;
   overflow: hidden;
   background-color: #333;
 }
@@ -54,7 +59,7 @@ li a:hover{
 }
 .tilewrap{
     width:80%;
-    background-color: lightcoral;
+    background-color: rgb(226, 222, 222);
     margin: auto;
     padding: 1em;
     object-fit: cover;
@@ -64,15 +69,17 @@ li a:hover{
 }
 .wrap{
     background-color: lightgreen;
-    width: 30%;
+    /* width: 30%; */
     height: 300px;
     font-size: 60px;
     box-sizing: border-box;
-    text-align: center;
-    padding: 2em;
     object-fit: cover;
     margin: .5em;
     
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 @media screen and (max-width :768px){
     .wrap{
