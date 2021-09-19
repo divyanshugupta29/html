@@ -1,0 +1,49 @@
+.flex_container{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.tyle_wrap{
+    background-color: orange;
+    margin: 1em;
+    padding: 0.5em;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.wrap{
+    width: 45%;
+    height: 45%;
+    margin: auto;
+    background-color: teal;
+}
+.box2{
+    width: 90%;
+    height: 44%;
+    margin: 1em;
+    background-color: teal;
+}
+
+.box3{
+    width: 45%;
+    height: 45%;
+    margin:1em;
+    background-color: teal;
+    justify-content: center;
+}
+@media screen and (max-width:765px){
+    .tyle_wrap{
+        width: 90%;
+        background-color: yellow;
+    }
+   
+}
+@media screen and (min-width:766px) {
+    .tyle_wrap{
+        width: 25%;
+    }
+}
